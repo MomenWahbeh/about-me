@@ -1,6 +1,8 @@
 'use strict';
+function start(){
 let user = prompt (" what\'s your name?")
-let counter = 0;
+let counter = 0;}
+start()
 alert("Welcome " + user + "  let\'s play a Guessing Game ")
 
 
