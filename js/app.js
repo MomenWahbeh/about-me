@@ -1,6 +1,6 @@
 'use strict';
 let user = prompt (" what\'s your name?")
- 
+let counter = 0;
 alert("Welcome " + user + "  let\'s play a Guessing Game ")
 
 
