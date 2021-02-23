@@ -6,14 +6,15 @@ start()
 alert("Welcome " + user + "  let\'s play a Guessing Game ")
 
 
-let major = prompt("Did I graduated in MIS?")
+function myEducation(){ let major = prompt("Did I graduated in MIS?")
 if(major ==="yes" || major ==="y") {
     alert ("Great!")
 }else if (major === "no" || major==="n"){
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+    counter++;
+}} myEducation()
 
 let uni = prompt("Did I graduated from the UJ")
 if(uni == "yes"|| uni =="y") {
