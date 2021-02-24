@@ -1,10 +1,11 @@
 'use strict';
-function start (){
+
 let user = prompt (" what\'s your name?")
 let counter = 0;
+
 alert("Welcome " + user + "  let\'s play a Guessing Game ")
 
-}start()
+
 
 function speciality(){
 let major = prompt("Did I graduated in MIS?")
