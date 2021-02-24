@@ -1,9 +1,12 @@
 'use strict';
+function start (){
 let user = prompt (" what\'s your name?")
 let counter = 0;
 alert("Welcome " + user + "  let\'s play a Guessing Game ")
 
+}start()
 
+function speciality(){
 let major = prompt("Did I graduated in MIS?")
 if(major ==="yes" || major ==="y") {
     alert ("Great!")
@@ -11,8 +14,9 @@ if(major ==="yes" || major ==="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} speciality ()
 
+function highSchool (){
 let uni = prompt("Did I graduated from the UJ")
 if(uni == "yes"|| uni =="y") {
     alert ("Great!")
@@ -20,8 +24,9 @@ if(uni == "yes"|| uni =="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} highSchool ()
 
+function birthDate (){
 let YoB = prompt("Did I born  in 1998")
 if(YoB === "yes"|| YoB ==="y") {
     alert ("Sorry Wrong Answer!")
@@ -29,7 +34,9 @@ if(YoB === "yes"|| YoB ==="y") {
     alert("Correct Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} birthDate()
+
+function transportaion (){
 let car = prompt("Do I have a car?")
 if(car == "yes"|| car =="y") {
     alert ("Great!")
@@ -37,7 +44,9 @@ if(car == "yes"|| car =="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} transportaion ()
+
+function passport (){
 let Nat = prompt("Am I Jordanian?")
 if(Nat == "yes"|| Nat =="y") {
     alert ("Great!")
@@ -45,8 +54,9 @@ if(Nat == "yes"|| Nat =="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} passport ()
 
+function guessNum (){
 let number = 7;
 for (let i = 0; i < 5; i++) {
     let Attempts = prompt('guess a number from 1 to 15');
@@ -65,8 +75,9 @@ for (let i = 0; i < 5; i++) {
         alert('you can not try any more');
     }
 
-};
+}} guessNum();
 
+function likedCars (){
 let Cars = ['Mercidis', 'BMW', 'Toyouta', 'Ople', 'Ford']
 let correct = false;
 
@@ -89,5 +100,5 @@ alert('I like the following cars brands ' + Cars );
 
 if (counter > 5) {
     alert('your score is'   + counter + 'from 5');
-}
+}} likedCars()
 
