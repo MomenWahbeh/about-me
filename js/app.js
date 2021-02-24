@@ -13,9 +13,8 @@ if(major ==="yes" || major ==="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-    counter++;
-}} myEducation()
-
+}
+function myUni(){
 let uni = prompt("Did I graduated from the UJ")
 if(uni == "yes"|| uni =="y") {
     alert ("Great!")
@@ -23,7 +22,7 @@ if(uni == "yes"|| uni =="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} myUni()
 
 let YoB = prompt("Did I born  in 1998")
 if(YoB === "yes"|| YoB ==="y") {
