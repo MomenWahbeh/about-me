@@ -20,7 +20,7 @@ if(uni == "yes"|| uni =="y") {
     alert("Sorry Wrong Answer!")
 }else {
     alert ("Enter only yes or no")
-}}myUni()
+}} myUni()
 
 let YoB = prompt("Did I born  in 1998")
 if(YoB === "yes"|| YoB ==="y") {
