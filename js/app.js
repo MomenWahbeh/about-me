@@ -1,10 +1,12 @@
 'use strict';
+function start(){
 let user = prompt (" what\'s your name?")
-let counter = 0;
+let counter = 0;}
+start()
 alert("Welcome " + user + "  let\'s play a Guessing Game ")
 
 
-let major = prompt("Did I graduated in MIS?")
+function myEducation(){ let major = prompt("Did I graduated in MIS?")
 if(major ==="yes" || major ==="y") {
     alert ("Great!")
 }else if (major === "no" || major==="n"){
