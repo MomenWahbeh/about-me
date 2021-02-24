@@ -21,7 +21,7 @@ if(uni == "yes"|| uni =="y") {
 }else {
     alert ("Enter only yes or no")
 }
-
+function birthdate (){
 let YoB = prompt("Did I born  in 1998")
 if(YoB === "yes"|| YoB ==="y") {
     alert ("Sorry Wrong Answer!")
@@ -29,7 +29,8 @@ if(YoB === "yes"|| YoB ==="y") {
     alert("Correct Answer!")
 }else {
     alert ("Enter only yes or no")
-}
+}} birthdate ()
+
 let car = prompt("Do I have a car?")
 if(car == "yes"|| car =="y") {
     alert ("Great!")
